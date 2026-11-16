@@ -97,6 +97,37 @@
 
 // replace()
 
-let message = 'i love python'
-let result = message.replace('python', 'javascript')
-console.log(result)
+// let message = 'i love python'
+// let result = message.replace('python', 'javascript')
+// console.log(result)
+
+// let message = 'hello user, welcome user'
+// let result = message
+//     .replace(/hello/g, 'welcome')
+//     .replace(/user/g, 'javascript')
+//     console.log(result)
+
+//trim()
+
+// let name = '  sinan  '
+// console.log(name.trim())
+
+
+// for of loop through array
+
+// let numbers = [45,12,89,34,67]
+// let lowestValue = numbers.sort((a,b) => a-b)[0] // find the smallest number
+// console.log(lowestValue)
+
+// count vowels
+
+let sentence = "javascript programming"
+let vowels = "aeiou"
+let counter = 0
+for(let char of sentence){
+    if(vowels.includes(char)){
+        counter++
+    }
+}
+console.log("Total vowels: ", counter)
+
