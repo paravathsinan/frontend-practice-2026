@@ -121,13 +121,78 @@
 
 // count vowels
 
-let sentence = "javascript programming"
-let vowels = "aeiou"
-let counter = 0
-for(let char of sentence){
-    if(vowels.includes(char)){
-        counter++
-    }
-}
-console.log("Total vowels: ", counter)
+// let sentence = "javascript programming"
+// let vowels = "aeiou"
+// let counter = 0
+// for(let char of sentence){
+//     if(vowels.includes(char)){
+//         counter++
+//     }
+// }
+// console.log("Total vowels: ", counter)
 
+// print array & find sum of the array
+
+// let array = [10,20,30,40,50]
+// let sum = 0
+// for(let num of array){
+//     sum +=num
+// }
+// console.log(sum)
+
+// count of even numbers
+
+// let array = [12,7,8,15,20,31]
+// let count = 0
+// for(let even of array){
+//     if(even%2===0){
+//         count++
+//     }
+// }
+// console.log(count)
+
+
+// find the largest number without using Math.max
+
+// let array = [15,45,23,89,12]
+// let ascending = array.sort((a,b) => b-a)[0]
+// console.log(ascending)
+
+
+//count vowels in an array of words
+
+// let fruits = ["apple","banana","orange"]
+// let vowels = 'aeiou'
+// let count = 0
+// for(let char of fruits){
+//     if(fruits.includes(char)){
+//         count++
+//     }
+// }
+// console.log(count)
+
+
+// find duplicate elements
+
+// let array = [10,20,30,20,40,10,50]
+// let duplicate = []
+// for(let num of array){
+//     if(array.indexOf(num) !== array.lastIndexOf(num)){
+//         if(!duplicate.includes(num)){
+//             duplicate.push(num)
+//         }
+//     }
+// }
+// console.log(duplicate)
+
+// forEach()
+
+// let products = [
+//     {name:"Laptop", price: 50000},
+//     {name:"Mouse", price: 1000},
+//     {name:"keyboard", price: 2000},
+//     {name:"monitor", price: 15000}
+// ]
+// products.forEach((product) =>{
+//     console.log(product.name + " costs " + product.price)
+// })
