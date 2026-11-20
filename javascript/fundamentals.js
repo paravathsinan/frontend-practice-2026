@@ -196,3 +196,115 @@
 // products.forEach((product) =>{
 //     console.log(product.name + " costs " + product.price)
 // })
+
+
+// functions and modern javascript learning and tasks
+
+
+// let numbers = [2,3,4,5]
+// console.log(numbers.map(num => num**2))
+
+
+// function calculateTotal(a,b){
+//     return a + b
+// }
+// // let result = calculateTotal(10,20)
+// // console.log(result)
+
+// //closure
+
+// // Task: Bank Account
+
+// function bankAccount(){
+//     let balance = 1000
+//     return{
+//         deposit: function(amount){
+//             balance +=amount
+//             console.log("Deposited: ", amount)
+//             console.log("Current balance: ", balance)
+//         },
+//         withdraw: function(amount){
+//             if(amount<=balance){
+//                 balance -=amount
+//                 console.log("Withdrawn: ", amount)
+//                 console.log("Current balance: ", balance)
+//             }
+//             else{
+//                 console.log("Insufficient balance")
+//             }
+//         },
+//         checkBalance: function(){
+//             console.log("Current balance: ", balance)
+//         }
+//     }
+// }
+
+// const account = bankAccount()
+// account.deposit(500)
+// account.withdraw(200)
+// account.checkBalance()
+
+
+// function greet(name, callback){
+//     console.log("Hello, " + name)
+//     callback()
+// }
+// function welcome(){
+//     console.log("welcome to our application")
+// }
+// greet("sinan", welcome)
+
+// spread operator
+
+// const array = {name: "sinan", age: 23}
+// const updated = {...array, location: "malappuram"
+// }
+// console.log(updated)
+
+// array destructuring
+
+// let skills = ['html','css','javascript']
+// let [first,second] = skills
+// console.log(first)
+// console.log(second)
+
+// object destructuring
+
+// let employee = {
+//     name: "sinan",
+//     age: 23,
+//     salary: 4400
+// }
+
+// let {name:"rahul",age,salary} = employee
+
+// // console.log(name)
+
+// //local storage
+
+// let user = {
+//     name: "sinan",
+//     age: 23
+// }
+// localStorage.setItem("user",JSON.stringify(user))
+// let storedUser = JSON.parse(localStorage.getItem("user"))
+// console.log(storedUser.name)
+
+
+// find odd sum from an array using iteration method
+
+// const numbers = [1,2,3,4,5,6,7,8,9,10]
+
+// const oddNumbers = numbers.filter(num => num % 2 !== 0)
+// const oddSum = numbers.reduce((total,num) => total + num,0)
+// console.log("Odd numbers: ", oddNumbers)
+// console.log("Odd total sum: ", oddSum)
+
+// const students = [
+//     {name: "sinan", score: 50},
+//     {name: "rishin", score: 60},
+//     {name: "mayis", score: 80}
+// ]
+
+// const studentScore = students.filter(num => num.score>75).map(students => students.score)
+// console.log(studentScore)
